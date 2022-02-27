@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 660px;
+    background-image: url(images/top-banner.png);
+    background-size: cover;
+}
+.hero .content{
+    width: 45%;
+    float: left;
+    padding: 2.5% 2.5% 2.5% 5%;
+    margin-top: 5%;
+}
+.hero .content h2{
+ font-size: 50px;
+ line-height: 100px;
+ font-weight: 700;
+}
+.hero .content h2 span{
+    color: tomato;
+}
+.hero .content h4{
+    font-size: 30px;
+    padding: 2% 0% 1% 0%;
+}
+.hero .content p{
+    font-size: 20px;
+    padding: 2% 0% 2% 0%;
+    margin-bottom: 2%;
+}
+.hero .content input{
+    width: 170px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    background-color: tomato;
+    border: 1px solid #000;
+    border-radius: 5px;
+
+}
+.hero .content input:hover{
+    width: 200px;
+    transition:  .5s ease-in-out ;
+}
+
+.hero .img{
+    width: 45%;
+    float: left;
+    display: inline;
+}
+.hero .img img{
+    width: 78%;
+    padding-left: 15%;
+}
+
+                                                /* hero section css done */
+
+
+.secsection{
+    width: 100%;
+    height: 660px;
+
+}
+.secsection .seccontent{
+    width: 40%;
+    float: left;
+    padding: 2.5% 2.5% 2.5% 5%;
+    margin-top: 5%;
+}
+.secsection .seccontent h2{
+ font-size: 50px;
+ line-height: 100px;
+ font-weight: 700;
+}
+.secsection .seccontent h2 span{
+    color: tomato;
+}
+.secsection .seccontent h4{
+    font-size: 30px;
+    padding: 2% 0% 1% 0%;
+}
+.secsection .seccontent p{
+    font-size: 20px;
+    padding: 2% 0% 2% 0%;
+    margin-bottom: 2%;
+}
+.secsection .seccontent input{
+    width: 240px;
+    /* height: 37px; */
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    background-color: tomato;
+    border: 1px solid #000;
+    border-radius: 5px;
+  padding: 5px;
+}
+.secsection .seccontent input:hover{
+    width: 280px;
+    transition:  .5s ease-in-out ;
+}
+.secsection .img{
+    width: 45%;
+    float: left;
+    display: inline;
+}
+.secsection .img img{
+    width: 78%;
+    padding-left: 15%;
+}
+.secsection .secimage{
+    padding-top:10%;
+    
+}
+.secsection .secimage img{
+    height: 350px;
+}
+
+                                                   /* second section done */
+
+
+
+.thrdsection{
+    height: 530px;
+    padding: 2% 2% 2% 0%;
+    
+}
+.thrdsection h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.thrdsection img{
+    float: left;
+    padding-top: 5.5%;
+    height: 240px;
+}
+.thrdsection .fstbox{
+    width: 39%;
+    float: left;
+    height: 320px;
+    /* border: .1px solid #000; */
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px 10px rgb(161, 161, 161);
+    display: inline;
+    padding: 2%;
+    margin-right: 2%;
+    margin-top: 1.5%;
+    background-color: rgb(255, 255, 255);
+}
+.fstbox h2{
+    font-size: 40px;
+    text-align: left;
+    padding: 10px 0px 30px 0px;
+    font-weight: bold;
+}
+.fstbox h4{
+    font-size: 20px;
+    color: tomato;
+    padding: 5px 0px 5px 0px;
+}
+.fstbox p{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px 5px 5px 0px;
+}
+#pro{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, blue, cyan );
+    border-image-slice: 1;
+}
+
+
+                                /* fstbox css done */
+
+
+
+.thrdsection .secbox{
+    width: 39%;
+    float: left;
+    height: 320px;
+    /* border: 1px solid #000; */
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px 10px rgb(161, 161, 161);
+    display: inline;
+    padding: 2%;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    background-color: rgb(255, 255, 255);
+}
+
+.secbox h2{
+    font-size: 40px;
+    text-align: left;
+    padding: 10px 0px 30px 0px;
+    font-weight: bold;
+}
+.secbox h4{
+    font-size: 20px;
+    color: tomato;
+    padding: 5px 0px 5px 0px;
+}
+.secbox p{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px 5px 5px 0px;
+}
+#noob{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, #06FF00, #F94892 );
+    border-image-slice: 1;
+}
+                                        /* secbox css done */
+
+
+                                        /* third section done */
+        
+footer{
+    text-align: center;
+    font-size: 15px;
+    background-color: aliceblue;
+    height: 18px;
+    padding: .1%;
+}
+
+                                                    /* footer done */
